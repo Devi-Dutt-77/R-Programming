@@ -10,3 +10,12 @@ for (num in numbers) {
     print(paste(num, "is Odd"))
   }
 }
+
+
+#User input to check whether a number is even or odd
+num <- as.integer(readline(prompt = "Enter a number: "))
+if (num %% 2 == 0) {
+  print(paste(num, "is Even"))
+} else {
+  print(paste(num, "is Odd"))
+}
